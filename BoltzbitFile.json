@@ -1,7 +1,7 @@
 {
-  "id": "62627af5e267eb19ad70d9ef",
+  "id": "62627df2e267eb19ad70d9f5",
   "createdBy": "test-user",
-  "createdAt": "Apr 22, 2022 10:52:53 AM",
+  "createdAt": "Apr 22, 2022 11:05:38 AM",
   "sharedWith": [
     {
       "userGroupId": "PUBLIC",
@@ -14,7 +14,7 @@
   ],
   "cubeId": "62627af5e267eb19ad70d9ee",
   "datasetId": "626005581005d511d73daacb",
-  "modelId": "6260056e9c183f30ba5d6998",
+  "modelId": "62627df29c183f30ba5d69a8",
   "trainingConfig": {
     "ckpt_file": "ckpt.npz",
     "dtype": "float32",
@@ -31,10 +31,10 @@
     "train": {
       "trn_weight": 10,
       "optimizer": {
-        "learning_rate_init": 2e-4,
+        "learning_rate_init": 0.0002,
         "learning_rate_change_points": [],
         "learning_rate_change_values": [],
-        "learning_rate_inf_init": 2e-4,
+        "learning_rate_inf_init": 0.0002,
         "learning_rate_inf_change_points": [],
         "learning_rate_inf_change_values": []
       },
@@ -43,14 +43,14 @@
       "logging_period": 10
     },
     "dataloader": {
-      "trn_tst_split": 1.0,
+      "trn_tst_split": 1,
       "shuffle": true,
       "repeat": false
     }
   },
   "evaluationConfig": {
     "method": "EVAL_DEFAULT",
-    "trainingJobId": "62627af6dc34a332f306cbf9",
+    "trainingJobId": "62627df2dc34a332f306cbfd",
     "datasetId": "626005581005d511d73daacb",
     "taskIds": [
       "6260056f834461053154edee",
